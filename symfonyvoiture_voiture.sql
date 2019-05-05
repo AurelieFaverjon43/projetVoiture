@@ -1,0 +1,2 @@
+INSERT INTO symfonyvoiture.voiture (id, marque_id, image, puissance, km, name) VALUES (2, 1, 'https://www.cdn.renault.com/content/dam/Renault/FR/personal-cars/megane/kfb-megane-estate/packs-gt-line/renault-megane-estate-pack-gt-line-00105631.jpg.ximg.l_8_m.smart.jpg', 200, 5000, 'Clio');
+INSERT INTO symfonyvoiture.voiture (id, marque_id, image, puissance, km, name) VALUES (3, 2, 'https://www.cdn.renault.com/content/dam/Renault/FR/personal-cars/megane/kfb-megane-estate/packs-gt-line/renault-megane-estate-pack-gt-line-00105631.jpg.ximg.l_8_m.smart.jpg', 150, 12000, 'Focus');

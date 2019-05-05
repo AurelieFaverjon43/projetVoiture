@@ -1,0 +1,2 @@
+INSERT INTO symfonyvoiture.migration_versions (version, executed_at) VALUES ('20190503130126', '2019-05-03 13:01:57');
+INSERT INTO symfonyvoiture.migration_versions (version, executed_at) VALUES ('20190503130619', '2019-05-03 13:09:17');

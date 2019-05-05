@@ -1,0 +1,1 @@
+INSERT INTO symfonyvoiture.user (id, email, roles, password) VALUES (1, 'afaverjon@humanbooster.com', '[]', '$2y$13$EDp/3h7.eJRQ77NxnEOZZORsG/wL/lnL/4BxEQZNQJncY/lx7xJRK');
