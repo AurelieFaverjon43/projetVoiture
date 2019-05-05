@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello VoitureController!{% endblock %}
+
+{% block body %}
+    <button type="button" class="btn btn-danger"><a href="{{ path('voiture') }}" style="color:black">Retour a la liste de voitures</a></button>
+    {{ form(form) }}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="float-md-right">
+    <button type="button" class="btn btn-success"><a href="{{ path('app_register') }}" style="color:black">Registrer user</a></button>
+    <button type="button" class="btn btn-success"><a href="{{ path('app_login') }}" style="color:black">Login</a></button>
+    <button type="button" class="btn btn-success"><a href="{{ path('app_logout') }}" style="color:black">Logout</a></button>
+</div>
+
+<div class="example-wrapper">
+    <h1>{{ 'Bienvenue'| trans}}✅</h1>
+
+    <button type="button" class="btn btn-danger"><a href="{{ path('voiture') }}" style="color:black">Voir Voitures</a></button>
+    <button type="button" class="btn btn-danger"><a href="{{ path('marque') }}" style="color:black">Voir Marques</a></button>
+</div>
+{% endblock %}
